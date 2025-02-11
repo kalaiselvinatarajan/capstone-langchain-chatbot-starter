@@ -25,3 +25,29 @@
     border-radius: 5px;
     border: 1px solid #ccc;
 }
+
+.loading-message {
+    font-style: italic;
+    opacity: 0.8;
+}
+
+.spinner-border {
+    margin-left: 5px;
+}
+
+#chat-container {
+    max-height: 400px; /* Set a reasonable height */
+    overflow-y: auto; /* Enable scrolling */
+    border: 1px solid #ddd; /* Optional: adds a light border */
+    padding: 10px;
+}
+
+.system-message {
+    background-color: #ffcc00;
+    color: black;
+    font-weight: bold;
+    padding: 5px;
+    margin: 5px 0;
+    border-radius: 5px;
+    text-align: center;
+}
